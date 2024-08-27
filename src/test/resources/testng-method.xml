@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="Test Method">
+        <classes>
+            <class name="org.orangeHRM.tests.LoginTest">
+                <methods>
+                    <include name="loginWithEmptyCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
