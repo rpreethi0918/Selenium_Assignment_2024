@@ -1,0 +1,10 @@
+[0;1;31m●[0m jenkins.service - Jenkins Daemon
+     Loaded: loaded (/etc/systemd/system/jenkins.service; enabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2024-08-29 04:03:58 IST; 6s ago
+    Process: 163775 ExecStart=/usr/bin/java -jar /usr/share/jenkins/jenkins.war [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 163775 (code=exited, status=1/FAILURE)
+
+Aug 29 04:03:58 5CG9353SY3 systemd[1]: Started Jenkins Daemon.
+Aug 29 04:03:58 5CG9353SY3 java[163775]: Error: Unable to access jarfile /usr/share/jenkins/jenkins.war
+Aug 29 04:03:58 5CG9353SY3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+Aug 29 04:03:58 5CG9353SY3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
